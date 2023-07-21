@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    display: block;
+}
+body {
+    font-family: "Libre Baskerville";
+    font-weight: 400;
+}
+@font-face {
+    font-display: swap;
+    font-family: "Libre Baskerville";
+    font-style: normal;
+    font-weight: 400;
+    src: url("./fonts/libre-baskerville-v14-latin-regular.woff2") format("woff2"),
+    url("./fonts/libre-baskerville-v14-latin-regular.woff") format("woff");
+}
+@font-face {
+    font-display: swap;
+    font-family: "Libre Baskerville";
+    font-style: normal;
+    font-weight: 700;
+    src: url("./fonts/libre-baskerville-v14-latin-700.woff2") format("woff2"),
+    url("./fonts/libre-baskerville-v14-latin-700.woff") format("woff");
+}
+.header_site {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 40px;
+    border-bottom: 2px solid #e5e5e5;
+    align-items: center;
+}
+.container__site {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+.list___wrapper {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 311px;
+    column-gap: 40px;
+}
+.list {
+    display: grid;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    row-gap: 40px;
+}
+.header_text {
+    color: #7d7d7d;
+    text-align: right;
+    font-family: Libre Baskerville;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.571px;
+    font-weight: 700;
+}
